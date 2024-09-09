@@ -1,0 +1,29 @@
+.wrapp-form {
+    margin: 1.5rem;
+  
+    .wrapp-input {
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-direction: column;
+  
+      label {
+        margin-bottom: 5px;
+        flex-direction: column;
+        text-align: left;
+        font-size: 21px;
+      }
+  
+      input {
+        padding: 15px 10px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        background-color: none;
+        border: 3px solid transparent;
+      } & :focus {
+        border: 3px solid purple;
+
+      }
+    }
+  }
+  
